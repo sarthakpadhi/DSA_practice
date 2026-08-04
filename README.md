@@ -1,31 +1,29 @@
 # DSA Practice
 
-My data-structures & algorithms practice log. One folder per topic under `solutions/`,
-one folder per problem inside that.
+My DSA practice log — Python and C++, questions from multiple sources.
 
-## How I add a problem
+## Folder structure
 
 ```
-solutions/<topic>/<number>-<slug>/
-    solution.py      # or .cpp / .java — the code
-    notes.md         # from templates/problem_template.md
+solutions/<topic>/<source>-<number-or-slug>/
+    solution.py     ← Python solution (if done)
+    solution.cpp    ← C++ solution (if done)
+    notes.md        ← approach, complexity, gotchas (shared)
 ```
 
-Example: `solutions/arrays/1-two-sum/solution.py`
+**Source prefixes:** `lc` = LeetCode · `gfg` = GeeksforGeeks · `cf` = Codeforces · `hr` = HackerRank
 
-Copy the starters from `templates/` when you begin a problem.
+Example: `solutions/arrays/lc-1-two-sum/`
+
+Copy starters from `templates/` when you begin a new problem.
 
 ## Progress
 
-| # | Problem | Difficulty | Topic | Status |
-|---|---------|-----------|-------|--------|
-| — | _add your first one_ | — | — | — |
-
-<!-- Add a row per solved problem. Sort however you like. -->
+| Problem | Source | Difficulty | Topic | Lang | Status |
+|---------|--------|-----------|-------|------|--------|
+| [1. Two Sum](solutions/arrays/lc-1-two-sum/notes.md) | LC | Easy | Array | py, cpp | ✅ |
 
 ## Counts
 
-- Easy: 0
-- Medium: 0
-- Hard: 0
-- **Total: 0**
+- Easy: 1 &nbsp;&nbsp; Medium: 0 &nbsp;&nbsp; Hard: 0
+- **Total: 1** &nbsp;(Python: 1 · C++: 1)
