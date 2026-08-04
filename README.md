@@ -22,8 +22,9 @@ Copy starters from `templates/` when you begin a new problem.
 | Problem | Source | Difficulty | Topic | Lang | Status |
 |---------|--------|-----------|-------|------|--------|
 | [1. Two Sum](solutions/arrays/lc-1-two-sum/notes.md) | LC | Easy | Array | py, cpp | ✅ |
+| [97. Interleaving String](solutions/dynamic-programming/lc-97-interleaving-string/notes.md) | LC | Medium | DP, String | py | ✅ |
 
 ## Counts
 
-- Easy: 1 &nbsp;&nbsp; Medium: 0 &nbsp;&nbsp; Hard: 0
-- **Total: 1** &nbsp;(Python: 1 · C++: 1)
+- Easy: 1 &nbsp;&nbsp; Medium: 1 &nbsp;&nbsp; Hard: 0
+- **Total: 2** &nbsp;(Python: 2 · C++: 1)
