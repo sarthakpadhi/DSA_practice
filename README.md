@@ -23,8 +23,9 @@ Copy starters from `templates/` when you begin a new problem.
 |---------|--------|-----------|-------|------|--------|
 | [1. Two Sum](solutions/arrays/lc-1-two-sum/notes.md) | LC | Easy | Array | py, cpp | ✅ |
 | [97. Interleaving String](solutions/dynamic-programming/lc-97-interleaving-string/notes.md) | LC | Medium | DP, String | py | ✅ |
+| [329. Longest Increasing Path in a Matrix](solutions/dynamic-programming/lc-329-longest-increasing-path/notes.md) | LC | Hard | DP, DFS, Graph | py | ✅ |
 
 ## Counts
 
-- Easy: 1 &nbsp;&nbsp; Medium: 1 &nbsp;&nbsp; Hard: 0
-- **Total: 2** &nbsp;(Python: 2 · C++: 1)
+- Easy: 1 &nbsp;&nbsp; Medium: 1 &nbsp;&nbsp; Hard: 1
+- **Total: 3** &nbsp;(Python: 3 · C++: 1)
