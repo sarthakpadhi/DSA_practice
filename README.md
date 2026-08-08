@@ -26,3 +26,4 @@ Copy starters from `templates/` when you begin a new problem.
 | [329. Longest Increasing Path in a Matrix](solutions/dynamic-programming/lc-329-longest-increasing-path/notes.md) | LC | Hard | DP, DFS, Graph | py | ✅ |
 | [115. Distinct Subsequences](solutions/dynamic-programming/lc-115-distinct-subsequences/solution.py) | LC | Hard | DP, String | py | ✅ |
 | [924. Minimize Malware Spread](solutions/graphs/lc-924-minimize-malware-spread/notes.md) | LC | Hard | Graph, Union Find | py | ✅ |
+| [2497. Maximum Star Sum of a Graph](solutions/graphs/lc-2497-maximum-star-sum/notes.md) | LC | Medium | Graph, Greedy | py | ✅ |
