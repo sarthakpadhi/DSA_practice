@@ -24,6 +24,7 @@ Copy starters from `templates/` when you begin a new problem.
 | [1. Two Sum](solutions/arrays/lc-1-two-sum/notes.md) | LC | Easy | Array | py, cpp | ✅ |
 | [97. Interleaving String](solutions/dynamic-programming/lc-97-interleaving-string/notes.md) | LC | Medium | DP, String | py | ✅ |
 | [329. Longest Increasing Path in a Matrix](solutions/dynamic-programming/lc-329-longest-increasing-path/notes.md) | LC | Hard | DP, DFS, Graph | py | ✅ |
+| [72. Edit Distance](solutions/dynamic-programming/lc-72-edit-distance/notes.md) | LC | Medium | DP, String | py | ✅ |
 | [115. Distinct Subsequences](solutions/dynamic-programming/lc-115-distinct-subsequences/solution.py) | LC | Hard | DP, String | py | ✅ |
 | [924. Minimize Malware Spread](solutions/graphs/lc-924-minimize-malware-spread/notes.md) | LC | Hard | Graph, Union Find | py | ✅ |
 | [2497. Maximum Star Sum of a Graph](solutions/graphs/lc-2497-maximum-star-sum/notes.md) | LC | Medium | Graph, Greedy | py | ✅ |
