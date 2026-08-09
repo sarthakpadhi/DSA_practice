@@ -25,6 +25,7 @@ Copy starters from `templates/` when you begin a new problem.
 | [97. Interleaving String](solutions/dynamic-programming/lc-97-interleaving-string/notes.md) | LC | Medium | DP, String | py | ✅ |
 | [329. Longest Increasing Path in a Matrix](solutions/dynamic-programming/lc-329-longest-increasing-path/notes.md) | LC | Hard | DP, DFS, Graph | py | ✅ |
 | [72. Edit Distance](solutions/dynamic-programming/lc-72-edit-distance/notes.md) | LC | Medium | DP, String | py | ✅ |
+| [4015. Weighted Sum of a Tree](solutions/trees/lc-4015-weighted-sum-of-a-tree/notes.md) | LC | Medium | Tree, BFS, DFS | py | ✅ |
 | [4016. Max Area Non-Overlapping Squares](solutions/dynamic-programming/lc-4016-max-area-non-overlapping-squares/notes.md) | LC | Medium | DP, Matrix, Prefix Sum | py | ✅ |
 | [115. Distinct Subsequences](solutions/dynamic-programming/lc-115-distinct-subsequences/solution.py) | LC | Hard | DP, String | py | ✅ |
 | [924. Minimize Malware Spread](solutions/graphs/lc-924-minimize-malware-spread/notes.md) | LC | Hard | Graph, Union Find | py | ✅ |
