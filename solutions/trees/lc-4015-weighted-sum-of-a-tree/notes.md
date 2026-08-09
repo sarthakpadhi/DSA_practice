@@ -20,4 +20,4 @@ Two passes:
 
 ## Notes / Gotchas
 - `parent[0] = -1` (or 0 pointing to itself) for the root — the loop builds `adjList[-1].append(0)` which is harmless since we start BFS from node 0.
-- `queue.pop(0)` is O(n) per call — for a large tree swap to `collections.deque` with `popleft()`.
+- **solution2.py** swaps `list.pop(0)` (O(n) per call → O(n²) BFS) for `deque.popleft()` (O(1) → true O(n) BFS). Always prefer `deque` for queues in Python.
