@@ -21,6 +21,6 @@ Monotonic decreasing deque storing **indices**. For each new element:
 - **Space:** O(k) — deque holds at most k indices
 
 ## Notes / Gotchas
-- Store **indices**, not values — needed to check if the front has expired (`q[0] <= r - k`).
+-image.pngStore **indices**, not values — needed to check if the front has expired (`q[0] <= r - k`).
 - The deque is monotonically decreasing in value, so `q[0]` is always the index of the current window max.
 - Early return for k == 1 avoids edge case (window is always just the element itself).
