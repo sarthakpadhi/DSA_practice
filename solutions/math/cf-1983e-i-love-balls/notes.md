@@ -13,12 +13,26 @@ special ball lets the same player draw again (if any balls remain); drawing a no
 passes the turn. Alice goes first. Return each player's expected total score, modulo 1e9+7.
 
 ## Approach
-Split the total value into the special-ball sum `S` and non-special-ball sum `T`. Each special
-ball is drawn before the game can hinge on turn order in the same way, so its expected share for
-Alice reduces to a fixed fraction independent of draw order. The non-special balls get split
-based on parity of turns among the `m = n - k` non-special draws. Alice's expected score is
-computed as a combination of `S` and `T` scaled by modular-inverse fractions; Bob's is the
-remainder (`total - alice`).
+Only the relative order of the balls matters, and only the non-special balls actually decide
+whose turn it is. This reduces to a "dots and dashes" style counting argument:
+
+- Line up the `m = n - k` non-special balls in draw order (0-indexed). Turns only pass on a
+  non-special draw, so the ball at an even position is taken by Alice and the ball at an odd
+  position is taken by Bob.
+- The `k` special balls each fall into one of the `m + 1` gaps around the non-special balls
+  (gap 0 is before the first non-special draw, gap 1 is between the 1st and 2nd, and so on).
+  Whoever's turn it is during that gap takes the ball, and gap "ownership" alternates starting
+  with Alice at gap 0 — same even/odd idea as above, just shifted by one slot.
+
+So each ball's destination only depends on which of its equally-likely slots it lands in:
+
+- A non-special ball has `m` equally likely positions, of which `(m + 1) // 2` belong to Alice.
+  So Alice's expected share of the non-special sum `T` is `T * ((m + 1) // 2) / m`.
+- A special ball has `m + 1` equally likely gaps, of which `m // 2 + 1` belong to Alice. So
+  Alice's expected share of the special sum `S` is `S * (m // 2 + 1) / (m + 1)`.
+
+`alice = S * (m // 2 + 1) / (m + 1) + T * ((m + 1) // 2) / m` (all divisions as modular inverses),
+and `bob = total - alice`.
 
 ## Complexity
 - **Time:** O(n) per test case (sum + two modular exponentiations)
